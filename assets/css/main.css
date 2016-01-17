@@ -2788,11 +2788,24 @@
 
 			.main.style2 ul.major-icons li .icon {
 				border-color: #ffffff;
+				background-color: #ffffff;
+				opacity: 0.7;
 			}
 
 			.main.style2 .icon.major {
 				color: #ffffff;
 			}
+
+			.style-linux {
+				color: #000 !important;
+			}
+
+	.header-grad {
+		background-attachment: fixed,							fixed,							fixed;
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2) !important;
+		background-position: top left,						center center,					center center;
+		background-size: auto,							cover,							cover;
+	}
 
 /* Header */
 
